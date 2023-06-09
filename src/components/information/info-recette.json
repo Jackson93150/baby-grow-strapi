@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_information_info_recettes",
+  "info": {
+    "displayName": "InfoRecette",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "tempsDeCuisson": {
+      "type": "integer"
+    },
+    "tempsDePreparation": {
+      "type": "integer"
+    },
+    "tempsTotal": {
+      "type": "integer"
+    },
+    "equipement": {
+      "type": "richtext"
+    },
+    "ingredient": {
+      "type": "richtext"
+    },
+    "instruction": {
+      "type": "richtext"
+    }
+  }
+}
