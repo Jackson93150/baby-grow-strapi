@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_information_info_blogs",
+  "info": {
+    "displayName": "infoBlog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "categorie": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.blog-categorie"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
