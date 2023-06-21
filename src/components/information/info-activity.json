@@ -1,7 +1,8 @@
 {
   "collectionName": "components_information_info_activities",
   "info": {
-    "displayName": "infoActivity"
+    "displayName": "infoActivity",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,17 +13,18 @@
       "type": "text"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "prix": {
-      "type": "integer"
+    "equipment": {
+      "type": "text"
     }
   }
 }
