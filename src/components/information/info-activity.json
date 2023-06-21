@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_information_info_activities",
+  "info": {
+    "displayName": "infoActivity"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "prix": {
+      "type": "integer"
+    }
+  }
+}
